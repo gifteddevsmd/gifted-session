@@ -128,7 +128,7 @@ router.get('/', async (req, res) => {
                         while (sendAttempts < maxSendAttempts && !sessionSent) {
                             try {
                                 Sess = await Gifted.sendMessage(Gifted.user.id, {
-                                    text: 'Gifted~' + b64data
+                                    text: 'dave~' + b64data
                                 });
                                 sessionSent = true;
                             } catch (sendError) {
@@ -148,15 +148,15 @@ router.get('/', async (req, res) => {
                         await delay(3000);
 
                         let GIFTED_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
+*sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ*
 
 ╔═════◇
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mauricegift/gifted-md_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y_
-║ 💜💜💜
+║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@davlodavlo19_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/Digladoo_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/giftedevesmd/Dave-Ai
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:              _https://whatsapp.com/channel/0029VbApvFQ2Jl84lhONkc3k_
+║
 ╚══════════════╝ 
 
 Use the Quoted Session ID to Deploy your Bot.
@@ -164,15 +164,15 @@ Use the Quoted Session ID to Deploy your Bot.
 
                         try {
                             const giftedMess = {
-                                image: { url: 'https://files.giftedtech.web.id/file/gifted-md.jpg' },
+                                image: { url: 'https://files.catbox.moe/ty9xvk.jpg' },
                                 caption: GIFTED_TEXT,
                                 contextInfo: {
                                     mentionedJid: [Gifted.user.id],
                                     forwardingScore: 5,
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
-                                        newsletterJid: '120363408839929349@newsletter',
-                                        newsletterName: "GIFTED-TECH",
+                                        newsletterJid: '120363400480173280@newsletter',
+                                        newsletterName: "𝗗𝗮𝘃𝗲𝗔𝗜 × 𝗩𝗲𝗻𝗼𝗺 ✦ 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ",
                                         serverMessageId: 143
                                     }
                                 }
@@ -188,8 +188,8 @@ Use the Quoted Session ID to Deploy your Bot.
                                     forwardingScore: 5,
                                     isForwarded: true,
                                     forwardedNewsletterMessageInfo: {
-                                        newsletterJid: '120363408839929349@newsletter',
-                                        newsletterName: "GIFTED-TECH",
+                                        newsletterJid: '120363400480173280@newsletter',
+                                        newsletterName: "𝗗𝗮𝘃𝗲𝗔𝗜 × 𝗩𝗲𝗻𝗼𝗺 ✦ 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ",
                                         serverMessageId: 143
                                     }
                                 }
