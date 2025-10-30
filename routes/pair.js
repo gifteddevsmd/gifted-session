@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    async function GIFTED_PAIR_CODE() {
+    async function DAVE_PAIR_CODE() {
     const { version } = await fetchLatestBaileysVersion();
     console.log(version);
         const { state, saveCreds } = await useMultiFileAuthState(path.join(sessionDir, id));
@@ -154,7 +154,7 @@ router.get('/', async (req, res) => {
 ║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@davlodavlo19_
 ║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/Digladoo_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/giftedevesmd/Dave-Ai
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/giftedevesmd/Dave-Ai_
 ║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:              _https://whatsapp.com/channel/0029VbApvFQ2Jl84lhONkc3k_
 ║
 ╚══════════════╝ 
