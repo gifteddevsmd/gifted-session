@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
         }
     }
 
-    async function DAVE_PAIR_CODE() {
+    async function GIFTED_PAIR_CODE() {
     const { version } = await fetchLatestBaileysVersion();
     console.log(version);
         const { state, saveCreds } = await useMultiFileAuthState(path.join(sessionDir, id));
