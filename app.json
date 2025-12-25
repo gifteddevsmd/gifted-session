@@ -1,15 +1,20 @@
 {
-    "name": "Dave Session Generator",
+    "name": "dave-session",
     "description": "Web Session Generator",
-    "logo": "https://files.catbox.moe/52699c.jpg",
-    "repository": "https://github.com/mauricegift/gifted-sess",
-    "keywords": ["Dave-Tech"],
+    "logo": "https://files.catbox.moe/lu3bqk.jpg",
+    "repository": "https://github.com/gifteddevsmd/DAVE-PAIR",
+    "keywords": ["Trashcore"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
       "PORT": {
         "description": "Port for web app.4000,5000,3000... any!",
-        "value": "50900",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
         "required": false 
       }
     }   
